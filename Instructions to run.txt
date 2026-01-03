@@ -1,0 +1,37 @@
+Instructions to Run the TCP-only Meta-Hybrid IDS Code
+
+1️Preferred: Run on Kaggle
+
+Go to Kaggle
+ and log in.
+
+Open the uploaded Kaggle notebook link provided in the submission.
+
+All datasets are already uploaded and included, so you don’t need to download anything separately.
+
+Click “Run” or execute all notebook cells sequentially to see the model outputs, metrics, and graphs.
+
+2️Optional: Run on Local Computer
+
+Make sure Python 3.8+ is installed.
+
+Install the required packages:
+
+pip install numpy pandas scikit-learn matplotlib seaborn xgboost
+
+
+Ensure the dataset files included in the submission folder are in the same directory as the notebook/script.
+
+Open the .ipynb file in Jupyter Notebook or run the script via terminal:
+
+jupyter notebook
+
+
+or
+
+python main.py
+
+
+Execute all cells sequentially. The model’s predictions, graphs, and metrics will generate automatically.
+
+✅ Note: It is recommended to use Kaggle to avoid environment issues, as all files and datasets are already pre-configured there.
